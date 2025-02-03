@@ -1,4 +1,4 @@
-#  HNG -STAGE-1 Number Classification API
+# HNG STAGE-1 Number Classification API
 
 This project is a FastAPI-based web service that classifies numbers based on various properties such as whether they are prime, perfect, Armstrong numbers, and more. It also provides fun facts about numbers using the Numbers API.
 
@@ -10,6 +10,36 @@ This project is a FastAPI-based web service that classifies numbers based on var
 - Determine if a number is even or odd
 - Calculate the sum of the digits of a number
 - Get fun facts about numbers
+
+### Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/AyoIbitola/HNG-1.git
+    cd HNG-1
+    ```
+
+2. Create a virtual environment:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  
+    ```
+
+3. Install the dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+4. Run the application:
+    ```sh
+    uvicorn main:app --reload
+    ```
+
+5. Open your browser and navigate to:
+    ```sh
+    http://127.0.0.1:8000/docs
+    ```
+    
 
 ## Endpoints
 
