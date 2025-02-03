@@ -14,7 +14,9 @@ This project is a FastAPI-based web service that classifies numbers based on var
 ## Endpoints
 
 ### Endpoint URL
-
+```sh
+https://hng-1-production-e822.up.railway.app/api/classify-number?number=<your number>
+```
 ### GET /api/classify-number
 
 Classifies a number based on various properties.
