@@ -37,7 +37,7 @@ This project is a FastAPI-based web service that classifies numbers based on var
 
 5. Open your browser and navigate to:
     ```sh
-    http://127.0.0.1:8000/docs
+    http://127.0.0.1:8000/api/classify-number?number=<your number>
     ```
     
 
